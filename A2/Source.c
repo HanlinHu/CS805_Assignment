@@ -1,6 +1,5 @@
 //Name:		Hanlin Hu	
-//ID:		200-332-464
-//Email:	hu263@uregina.ca
+//Email:	hu263@cs.uregina.ca
 
 
 #include <math.h>
