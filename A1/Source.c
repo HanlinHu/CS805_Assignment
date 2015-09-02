@@ -64,7 +64,7 @@ int main(int argc, char* argv[])
     
 	normalize(&p2,&n);//calculate n
     
-	crossProduct(&p3,&p2,&tempU);//calculate crossProduct as 分子
+	crossProduct(&p3,&p2,&tempU);//calculate crossProduct as numerator
     normalize(&tempU, &u);//calculate normalization as u
     
     crossProduct(&n, &u, &v);//calculate v
