@@ -329,10 +329,6 @@ void computeShadingVolume(float lrp[3], unsigned char ct[SLCS][ROWS][COLS], floa
 		l->z = lrp[2] - k;
 		normalize(l, ln);
 
-		//这里就是我说的可能原因一
-		//n->x = ct[k][j][i] - ct[k][j][i - 1];
-		//n->y = ct[k][j][i] - ct[k][j - 1][i];
-		//n->z = ct[k][j][i] - ct[k - 1][j][i];
 		n->x = ct[k][j][i+1] - ct[k][j][i];
 		n->y = ct[k][j+1][i] - ct[k][j][i];
 		n->z = ct[k+1][j][i] - ct[k][j][i];
