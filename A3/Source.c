@@ -438,8 +438,6 @@ int rayCTBoxIntersection(Ray *ray, float ts[2])
 	x3 = ray->a->x + t5 * ray->b->x;
 	y3 = ray->a->y + t5 * ray->b->y;
 
-
-	//这里是可能原因二
 	if (y0>0 && y0<ROWS && z0>0 && z0<SLCS)
 	{
 		//save t value into ts[];
